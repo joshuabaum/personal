@@ -7,7 +7,7 @@ export default function HomeBar(props){
         const [color, setColor] = React.useState(props.color);
         const styles = {
             'background-color': color,
-            'transform': `rotate(8deg) translate(-2vw, 0)`
+            'transform': `rotate(7deg) translate(-2vw, 0)`
         }
         return (
             <div className="bar" style={styles}
