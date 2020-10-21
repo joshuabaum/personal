@@ -4,7 +4,7 @@
   .home-title-header {
     text-align: center;
     background-color:white;
-    min-height: 30vh;
+    min-height: 40vh;
     max-height: 40vh;
     display: flex;
     flex-direction: row;
@@ -16,10 +16,12 @@
   }
 
   .bar{
-    min-height: 12vh;
-    max-height: 12vh;
-    min-width: 100vw;
-    align-items: center;
+    margin: 0px;
+    padding: 0ps;
+    min-height: 15vh;
+    max-height: 15vh;
+    min-width: 104vw;
+    align-items: left;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,8 +56,10 @@
   }
 
   .home-body{
-    min-height: 70vh;
-    overflow: hidden;
+    min-height: 60vh;
+    max-height: 60vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
     /* background-color: black; */
   }
   
