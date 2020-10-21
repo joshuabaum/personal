@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+
+  .home-title-header {
+    text-align: center;
+    background-color:white;
+    min-height: 40vh;
+    max-height: 40vh;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: calc(4vmin);
+    color:black;
+    vertical-align: bottom;
+  }
+
+  .bar{
+    margin: 0px;
+    padding: 0ps;
+    min-height: 15vh;
+    max-height: 15vh;
+    min-width: 104vw;
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: center;
+  }
+
+  .bar-text{
+    font-family: 'Scada', sans-serif;
+    font-size: calc(10px + 5vmin);
+    color: white;
+    flex-direction: row;
+    display: flex;
+  }
+
+  .home-title{
+      vertical-align: bottom;
+      font-family: 'Scada', sans-serif;
+      font-size: calc(10px + 6vmin);
+      color: black;
+      flex-direction: row;
+      display: flex;
+  }
+
+  .home-title-letter{
+    vertical-align: bottom;
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    min-width: 3vw;
+    max-width: 4vw;
+    padding: 0.5vw;
+  }
+
+  .home-body{
+    min-height: 60vh;
+    max-height: 60vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* background-color: black; */
+  }
+  
+  
