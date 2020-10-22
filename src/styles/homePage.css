@@ -37,6 +37,18 @@
     display: flex;
   }
 
+  .nav-bar-text{
+    font-family: 'EB Garamond', serif;
+    font-size: calc(10px + 3vmin);
+    max-width: 20vw;
+    color: white;
+    flex-direction: row;
+    display: flex;
+    display: inline-block;
+    padding-right: 4vw;
+  }
+
+
   .home-title{
       vertical-align: bottom;
       font-family: 'EB Garamond', serif;
@@ -68,5 +80,18 @@
   .home-box{
     overflow: hidden;
   }
+
+  .nav-bar{
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: 10vh;
+    max-height: 10vh;
+
+    background-color: #FFF5CA;
+    vertical-align: center;
+  }
   
+  .links{
+    text-decoration: none;  
+  }
   

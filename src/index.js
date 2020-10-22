@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './styles/homePage.css';
-import HomeTitleBar from './components/HomeTitleBar';
-import HomeBody from './components/HomeBody';
+import Home from './components/Home';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className="home-box">
-    <HomeTitleBar />
-    <HomeBody />
-    </div>
+      <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
