@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Scada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
   .home-title-header {
     text-align: center;
@@ -38,7 +39,7 @@
 
   .home-title{
       vertical-align: bottom;
-      font-family: 'Scada', sans-serif;
+      font-family: 'EB Garamond', serif;
       font-size: calc(10px + 6vmin);
       color: black;
       flex-direction: row;
@@ -50,14 +51,15 @@
     text-align: center;
     flex-direction: row;
     display: flex;
-    min-width: 3vw;
-    max-width: 4vw;
-    padding: 0.5vw;
+    /* min-width: 3vw;
+    max-width: 3vw; */
+    padding: 0.25vw;
   }
 
   .home-body{
     min-height: 60vh;
     max-height: 60vh;
+    background-color:white;
     /* overflow-x: hidden; */
     overflow: visible;
     /* background-color: black; */
