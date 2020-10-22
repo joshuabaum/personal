@@ -6,6 +6,7 @@ export default function Resume(props) {
     return (
         <div className="resume-box">
             <NavigationBar />
+            <div className="resume-img"></div>
         </div>
     );
 }
