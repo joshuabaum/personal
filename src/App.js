@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
 import Home from './components/Home/Home';
 import Resume from './components/Resume';
-
+import Favorite from './components/Favorites/Favorites';
 class App extends Component {
   render() {
     return (      
@@ -12,7 +12,7 @@ class App extends Component {
             <Switch>
              <Route path="/personal" component={Home} exact/>
              <Route path="/personal/photography" component={Home} exact/>
-             <Route path="/personal/favorites" component={Home} exact/>
+             <Route path="/personal/favorites" component={Favorite} exact/>
              <Route path="/personal/resume" component={Resume}/>
              {/* <Route path="/contact" component={Contact}/> */}
            </Switch>
