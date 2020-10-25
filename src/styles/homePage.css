@@ -38,6 +38,7 @@
   }
 
   .nav-bar-text{
+    -webkit-transition: 0.25s ease-in-out;
     font-family: 'EB Garamond', serif;
     font-size: calc(10px + 3vmin);
     max-width: 20vw;
@@ -48,6 +49,10 @@
     padding-right: 4vw;
   }
 
+  .nav-bar-text:hover{
+    -webkit-transition: 0.25s ease-in-out;
+    transform: rotate(10deg);
+  }
 
   .home-title{
       vertical-align: bottom;

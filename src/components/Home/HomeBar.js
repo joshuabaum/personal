@@ -1,11 +1,12 @@
 import React from 'react';
-import '../styles/homePage.css';
+import '../../styles/homePage.css';
 
 
 
 export default function HomeBar(props){
         const [color, setColor] = React.useState(props.color);
         const styles = {
+            "-webkit-transition": "0.25s ease-in-out",
             'background-color': color,
             'transform': `rotate(7deg) translate(-2vw, 0)`
         }

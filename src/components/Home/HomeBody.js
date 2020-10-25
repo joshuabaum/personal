@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/homePage.css';
+import '../../styles/homePage.css';
 import './HomeBar';
 import HomeBar from './HomeBar';
 import {Link} from 'react-router-dom';
